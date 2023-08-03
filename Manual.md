@@ -13,10 +13,11 @@
     ```
 
 ## ngrok
-- 下載 ngrok：前往 ngrok 官網（https://ngrok.com/）下載並安裝 ngrok，用於開放本地端口。
+- 下載 ngrok：前往 ngrok 官網（https://ngrok.com/） 下載並安裝 ngrok，用於開放本地端口。
+
 
 ##　資料庫設定
-- 註冊 MongoDB 帳號：前往 MongoDB 官網（https://www.mongodb.com/cloud/atlas）註冊一個帳號。
+- 註冊 MongoDB 帳號：前往 MongoDB 官網（https://www.mongodb.com/cloud/atlas） 註冊一個帳號。
 
 - 建立 Cluster：在 MongoDB Cloud 中建立一個 Cluster，用於儲存 KBK Line Bot 的資料。
 
@@ -31,7 +32,7 @@
     ```
 
 ## 設定 Line Bot
-- 建立 Line Bot：前往 LINE Developers（https://developers.line.biz/）建立一個 Line Bot。
+- 建立 Line Bot：前往 LINE Developers（https://developers.line.biz/） 建立一個 Line Bot。
 
 - 執行程式啟動linebot：在 Terminal 中執行 KBKrobot.ipynb 程式碼。
 
@@ -42,7 +43,7 @@
     ngrok http 6000 --host-header="localhost:6000" 
     ```
 
-- 取得 ngrok 位址：在 ngrok 啟動後，取得產生的 URL，格式為 "https://xxxxxx.ngrok.io/verify"。
+- 取得 ngrok 位址：在 ngrok 啟動後，取得產生的 URL，格式為 "https://xxxxxx.ngrok.io/verify" 。
 
-- 設定 Line Bot Webhook URL：回到 LINE Developers，將 Line Bot 的 Webhook URL 設定為 "https://xxxxxx.ngrok.io/verify"，並啟用 Webhook。
+- 設定 Line Bot Webhook URL：回到 LINE Developers，將 Line Bot 的 Webhook URL 設定為 "https://xxxxxx.ngrok.io/verify" ，並啟用 Webhook。
 
