@@ -13,11 +13,11 @@
     ```
 
 ## ngrok
-- 下載 ngrok：前往 ngrok 官網（https://ngrok.com/） 下載並安裝 ngrok。
+- 下載 ngrok：前往 ngrok 官網 "https://ngrok.com/" 下載並安裝 ngrok。
 - ngrok 用於開放本地端口，將本地伺服器暴露在公開網際網路上。
 
 ## 資料庫設定
-- 註冊 MongoDB 帳號：前往 MongoDB 官網（https://www.mongodb.com/cloud/atlas） 註冊一個帳號。
+- 註冊 MongoDB 帳號：前往 MongoDB 官網 "https://www.mongodb.com/cloud/atlas" 註冊一個帳號。
 
 - 建立 Cluster：在 MongoDB Cloud 中建立一個 Cluster，用於儲存 KBK Line Bot 的資料。
 
@@ -32,7 +32,7 @@
     ```
 
 ## 設定 Line Bot
-- 建立 Line Bot：前往 LINE Developers（https://developers.line.biz/） 建立一個 Line Bot。
+- 建立 Line Bot：前往 LINE Developers "https://developers.line.biz/" 建立一個 Line Bot。
 
 - 執行程式啟動linebot：在 Terminal 中執行 KBKrobot.ipynb 程式碼。
 
